@@ -24,4 +24,7 @@
 
       </tfoot>
   </table>
+  <ul class="conteoVehiculosPorMarcaList">
+    <li *ngFor="let marca of vehiculosPorMarca">Total {{marca.marca}}:{{marca.cantidad}}</li>
+  </ul>
 </div>
