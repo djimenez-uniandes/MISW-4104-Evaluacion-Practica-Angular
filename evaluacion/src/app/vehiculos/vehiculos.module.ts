@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListarVehiculosComponent } from './listar-vehiculos/listar-vehiculos.component';
 import { VehiculosRoutingModule } from './vehiculos-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -11,7 +12,7 @@ import { VehiculosRoutingModule } from './vehiculos-routing.module';
   ],
   imports: [
     CommonModule,
-    VehiculosRoutingModule
+    VehiculosRoutingModule,
   ]
 })
 export class VehiculosModule { }
